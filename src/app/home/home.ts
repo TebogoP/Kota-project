@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Products } from '../products/products';
 import {ProductsInterface} from '../products';
+import { NgForOf } from '@angular/common';
 
 @Component({
   selector: 'app-home',
-  imports: [Products],
+  imports: [Products, NgForOf],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
