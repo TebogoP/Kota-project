@@ -9,5 +9,76 @@ import {ProductsInterface} from '../products';
   styleUrl: './home.scss',
 })
 export class Home {
-  productList: ProductsInterface[] = [];
+  productList: ProductsInterface[] = [
+    {
+      id: 1,
+      name: 'Kick Ass Kota',
+      description: 'The ultimate kota loaded with everything',
+      price: 50,
+      photo: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400',
+    },
+    {
+      id: 2,
+      name: 'Power Kota',
+      description: 'Double patty for the hungry ones',
+      price: 65,
+      photo: 'https://images.unsplash.com/photo-1550317138-10000687a72b?w=400',
+    },
+    {
+      id: 3,
+      name: 'Cheese Bomb Kota',
+      description: 'Loaded with four types of cheese',
+      price: 55,
+      photo: 'https://images.unsplash.com/photo-1586816001966-79b736744398?w=400',
+    },
+    {
+      id: 4,
+      name: 'Chicken Kota',
+      description: 'Crispy fried chicken with coleslaw',
+      price: 45,
+      photo: 'https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=400',
+    },
+    {
+      id: 5,
+      name: 'Veg Kota',
+      description: 'Fresh veggies and halloumi',
+      price: 40,
+      photo: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400',
+    },
+    {
+      id: 6,
+      name: 'Spicy Kota',
+      description: 'Extra hot peri peri sauce',
+      price: 50,
+      photo: 'https://images.unsplash.com/photo-1561245893-8b2e4ef89c59?w=400',
+    },
+    {
+      id: 7,
+      name: 'Breakfast Kota',
+      description: 'Egg, bacon and cheese to start your day',
+      price: 45,
+      photo: 'https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400',
+    },
+    {
+      id: 8,
+      name: 'BBQ Kota',
+      description: 'Smoky BBQ sauce with caramelised onions',
+      price: 60,
+      photo: 'https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=400',
+    },
+    {
+      id: 9,
+      name: 'Boerewors Kota',
+      description: 'Traditional boerewors with chakalaka',
+      price: 55,
+      photo: 'https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=400',
+    },
+    {
+      id: 10,
+      name: 'The Big Boss Kota',
+      description: 'The biggest kota on the menu, not for the faint hearted',
+      price: 80,
+      photo: 'https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400',
+    },
+  ];
 }
