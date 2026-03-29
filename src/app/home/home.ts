@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { Products } from '../products/products';
 import {ProductsInterface} from '../products';
 import { NgForOf } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-home',
-  imports: [Products, NgForOf],
+  imports: [Products, NgForOf, RouterLink],
   templateUrl: './home.html',
   styleUrl: './home.scss',
 })
