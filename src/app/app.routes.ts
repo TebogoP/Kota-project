@@ -9,7 +9,7 @@ export const routes: Routes = [
     title: 'Home Page',
   },
   {
-    path: 'new',
+    path: 'new-edit',
     component: AddNew,
     title: 'New Product Page',
   },
