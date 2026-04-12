@@ -1,5 +1,6 @@
   <section id="filter-add">
     <button [routerLink]="['/new-edit']">Add new product</button>
+    <button  *ngIf="productList.length ===0" (click)="loadFromStorage()">Load Products</button>
     <form>
       <input type="text" placeholder="Filter by name">
       <button class ="primary" type="button">Search</button>
