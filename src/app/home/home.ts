@@ -45,5 +45,10 @@ export class Home implements OnInit {
       console.log("No data to load")
     }
   }
+
+  deleteProduct(id: number) {
+    this.productList = this.productList.filter(product => product.id !== id);
+    localStorage.setItem('products', JSON.stringify(this.productList));
+  }
 }
 

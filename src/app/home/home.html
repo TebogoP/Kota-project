@@ -8,7 +8,7 @@
   </section>
 
   <section class="results">
-    <app-products *ngFor="let product of productList" [productsInterface]="product">
+    <app-products *ngFor="let product of productList" [productsInterface]="product" (delete)="deleteProduct($event)">  >
     </app-products>
   </section>
 
